@@ -1,4 +1,4 @@
-import { Container, LoaderWrapper } from './styles.tsx';
+import { Container, LoaderWrapper } from './styles';
 
 function Loader() {
   return (

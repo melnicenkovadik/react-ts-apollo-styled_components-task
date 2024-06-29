@@ -23,7 +23,7 @@
       "*": ["*"]
     },
     "typeRoots": ["./node_modules/@types", "./src/@types"],
-    "types": ["node", "react", "react-dom", "styled-components", "vitest/globals", "@testing-library/jest-dom"]
+    "types": ["node", "react", "react-dom", "styled-components"]
   },
   "include": ["src"]
 }
