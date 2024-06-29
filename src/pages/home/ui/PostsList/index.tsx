@@ -2,8 +2,8 @@ import { FC, useCallback } from 'react';
 import { useMutation } from '@apollo/client';
 
 import { IPostList } from '../../../../shared/types/posts';
-import { DELETE_POST } from '../../../../shared/mutations/deletePost.ts';
-import { notify, notifyError } from '../../../../utils/notifications.ts';
+import { DELETE_POST } from '../../../../shared/mutations/deletePost';
+import { notify, notifyError } from '../../../../utils/notifications';
 import PostItem from '../PostItem';
 
 import { PostsListWrapper } from './styles';

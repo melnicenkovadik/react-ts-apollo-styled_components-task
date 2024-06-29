@@ -1,12 +1,13 @@
-import PostItem from './index.tsx';
 import { describe, it, expect, vi } from 'vitest';
 import { MockedProvider } from '@apollo/client/testing';
+
+import { render, fireEvent, waitFor } from '@testing-library/react';
+import '@testing-library/jest-dom';
 import {
   UPDATE_POST_BODY,
   UPDATE_POST_TITLE,
-} from '../../../../shared/mutations/updatePost.ts';
-import { render, fireEvent, waitFor } from '@testing-library/react';
-import '@testing-library/jest-dom';
+} from '../../../../shared/mutations/updatePost';
+import PostItem from '.';
 
 // Моки для Apollo Client
 const mocks = [

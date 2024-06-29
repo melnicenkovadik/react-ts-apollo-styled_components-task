@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useQuery } from '@apollo/client';
 
-import { GET_POSTS } from '../../shared/queries/getPosts.ts';
+import { GET_POSTS } from '../../shared/queries/getPosts';
 import type { Post } from '../../shared/types/posts';
 import Loader from '../../shared/ui/Loader';
 import PostsList from './ui/PostsList';

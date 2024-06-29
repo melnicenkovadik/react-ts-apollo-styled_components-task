@@ -1,10 +1,10 @@
-import PostsList from './index.tsx';
 import { describe, it, expect, vi } from 'vitest';
 import { MockedProvider } from '@apollo/client/testing';
 import { render, fireEvent, waitFor } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import { DELETE_POST } from '../../../../shared/mutations/deletePost.ts';
-import { Post } from 'shared/types/posts/index.ts';
+import { DELETE_POST } from '../../../../shared/mutations/deletePost';
+import { Post } from 'shared/types/posts/index';
+import PostsList from '.';
 
 describe('PostsList', () => {
   const mockPosts: Post[] = [

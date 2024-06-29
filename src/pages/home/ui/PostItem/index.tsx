@@ -3,10 +3,10 @@ import { IPostItem } from '../../../../shared/types/posts';
 import {
   UPDATE_POST_BODY,
   UPDATE_POST_TITLE,
-} from '../../../../shared/mutations/updatePost.ts';
+} from '../../../../shared/mutations/updatePost';
 import { useMutation } from '@apollo/client';
-import { notify, notifyError } from '../../../../utils/notifications.ts';
-import { setHeight } from '../../../../utils/setHeight.ts';
+import { notify, notifyError } from '../../../../utils/notifications';
+import { setHeight } from '../../../../utils/setHeight';
 
 import {
   PostItemWrapper,
